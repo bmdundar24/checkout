@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="head">Checkout</h1>
+        <div class="container">
+            
+            <div class="form-check">
+                <form action="result.html" method="get ">
+                    <h3>Contact information</h3>
+                    <label for="email">Email</label><br>
+                    <div class="input-box">
+                        <i class="fa fa-envelope icon"></i>
+                        <input type="email" name="Email" id="email" placeholder= " Enter your email..."><br>
+                    </div>
+                    <label for="phone">Phone</label><br>
+                    <div class="input-box">
+                        <i class="fas fa-phone-alt"></i>
+                        <input type="phone" name="Phone" id="phone" placeholder="Enter your phone..."><br>
+                    </div>
+                
+                    <h3>Shipping adress</h3>
+                    <label for="name">Full name</label> <br>
+                    <div class="input-box">
+                        <i class="fas fa-user"></i>
+                        <input type="text" name="Name" id="name" placeholder="Enter your Full name..."><br>
+                    </div>
+                    <label for="adres">Adress</label> <br>
+                    <div class="input-box">
+                        <i class="fas fa-home"></i>
+                        <input type="text" name="Adress" id="name" placeholder="Enter your adress..."><br>
+                    </div>
+                    <label for="city">City</label> <br>
+                    <div class="input-box">
+                        <i class="fas fa-city"></i>
+                        <input type="text" name="City" id="citty" placeholder="Enter your city..."><br>
+                    </div>
+                </form>
+                    <div class="country">
+                        <form action="result.html" method="get " >
+                            <div class="country-option">
+                                <label for="type">Country</label><br>
+                                <div class="input-box-half1">
+                                    <i class="fas fa-globe-europe"></i>
+                                    <select name="option" id="type">
+                                        <option value="country">Turkey</option>
+                                        <option value="country">Germany</option>
+                                        <option value="country">England</option>
+                                        <option value="country">USA</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </form>
+                        <div class="postcode-option">
+                            <label for="postcode">Post Code</label> <br>
+                            <div class="input-box-half2">
+                                <i class="fas fa-mail-bulk"></i>
+                                <input type="text" name="postcode" id="postcode" placeholder="Enter your Post Code..."><br>
+                            </div>
+                            
+                    </div>
+                    
+                </div>
+                <div class="xxx">
+                    <div class="input-box-remember">
+                        <input type="checkbox" name="check" id="check" value="check"> 
+                    </div>    
+                    <p>See this information next time</p>
+                </div>
+              
+            <div class="text-center">
+                <input id="Continue" type="submit" value="Continue"> 
+            </div>
+            </div>
+            <div class="product">
+                <div class="product-one">
+                    <img src="./img/photo1.png" alt="">
+                    <div class="first-one">
+                        <p>Vintage Backbag <br> <span>$54.99</span><del>$94.99</del></p>
+                        <div class="input-group">
+                            <span class="input-group-btn">
+                                <button type="button" class="btn btn-default btn-number" disabled="disabled" data-type="minus" data-field="quant[1]">
+                                    <span class="glyphicon glyphicon-minus"></span>
+                                </button>
+                            </span>
+                            <input type="text" name="quant[1]" class="form-control input-number" value="1" min="1" max="10">
+                            <span class="input-group-btn">
+                                <button type="button" class="btn btn-default btn-number" data-type="plus" data-field="quant[1]">
+                                    <span class="glyphicon glyphicon-plus"></span>
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-two">
+                    <img src="./img/photo2.png" alt="">
+                    <div class="second-one">
+                        <p>Levi Shoes <br> <span>$74.99</span><del>$124.99</del> </p>
+                        <div class="input-group">
+                            <span class="input-group-btn">
+                                <button type="button" class="btn btn-default btn-number" disabled="disabled" data-type="minus" data-field="quant[1]">
+                                    <span class="glyphicon glyphicon-minus"></span>
+                                </button>
+                            </span>
+                            <input type="text" name="quant[1]" class="form-control input-number" value="1" min="1" max="10">
+                            <span class="input-group-btn">
+                                <button type="button" class="btn btn-default btn-number" data-type="plus" data-field="quant[1]">
+                                    <span class="glyphicon glyphicon-plus"></span>
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="coast">
+                        <p>Shipping</p>
+                        <p>$19</p>
+                    </div>
+                    <div class="coast">
+                        <p>Total</p>
+                        <p>$148.98</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <script src="./script.js"></script>
+</body>
+</html>

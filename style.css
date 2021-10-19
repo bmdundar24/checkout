@@ -1,0 +1,138 @@
+.head{
+    text-align: center;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 50px;
+}
+.form-check{
+    position: relative;
+}
+label{
+    color: #757575;
+    font: size 15px;
+    font-weight: 200;
+    opacity: 0.5;
+}
+input{
+    opacity: 0.7;
+    width: 90%;
+    border: none;
+}
+.input-box {
+    border: 1px solid gray;
+    width: 25rem;
+    border-radius: 0.4rem;
+    padding: 0.4rem;
+    margin-bottom: 1rem;
+    margin-top: 0.7rem;
+    opacity: 0.6;
+  }
+  .input-box-remember{
+    width: 10%;
+    flex-direction: row;
+  }
+  .xxx{
+      display: flex;
+      padding: 0.4rem;
+    margin-bottom: 1rem;
+    margin-top: 0.7rem;
+    opacity: 0.6;  
+  }
+.input-box-half1{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid gray;
+    border-radius: 0.4rem;
+    padding: 0.2rem;
+}
+.input-box-half2{
+    border: 1px solid gray;
+    width: 22rem;
+    border-radius: 0.4rem;
+    padding: 0.2rem;
+}
+select{
+    border: none;
+    height: 20px;
+}
+.postcode-option{
+    padding-left: 5px;
+}
+.country{
+    display: flex;
+    flex-direction: row;
+}
+.text-center{
+    padding-top: 20px;
+}
+.text-center input{
+    width: auto;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    background-color: #F2994A ;
+    color: white;
+    position: absolute;
+    right: 1px;
+}
+.product{
+    width: 350px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: #EEEEEE;
+    border-radius: 10px;
+}
+.product-one{
+    display: flex;
+    padding: 20px;
+}
+.first-one{
+    padding: 20px;
+}
+img{
+    width: 100px;
+    height: auto;
+    border-radius: 9px;
+}
+.product-two{
+    display: flex;
+    padding: 20px;
+}
+.second-one{
+    padding: 20px
+}
+p span{
+    color: #F1994A;
+    padding: 5px;
+}
+.coast{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #BDBDBD;
+}
+.footer{
+    padding: 0 30px;
+}
+
+.input-group{
+    width: 20%;
+}
+@media screen and (max-width:600px) {
+
+    .container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    h1{
+        display: none;
+    }
+    .text-center input{
+        left: 1px;
+    }
+}
