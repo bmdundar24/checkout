@@ -8,7 +8,6 @@ $('.btn-number').click(function(e){
     var currentVal = parseInt(input.val());
     if (!isNaN(currentVal)) {
         if(type == 'minus') {
-            
             if(currentVal > input.attr('min')) {
                 input.val(currentVal - 1).change();
             } 
