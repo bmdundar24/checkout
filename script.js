@@ -23,7 +23,6 @@ $('.btn-number').click(function(e){
             if(parseInt(input.val()) == input.attr('max')) {
                 $(this).attr('disabled', true);
             }
-
         }
     } else {
         input.val(0);
